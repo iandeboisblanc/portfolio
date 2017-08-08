@@ -29,22 +29,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- TODO: Change favicon  -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicons/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#ffffff">
 
 </head>
@@ -104,15 +90,15 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
+                <h2>—About—</h2>
                 <p>
                   I am a full-stack engineer specializing in Javascript and with a strong background in data analytics.
                   Often guided by my curiosity, I've built front-end UI for web, mobile, and VR; implemented backend
-                  models and APIs in several languages; and designing and erecting databases and ETL pipelines.
+                  models and APIs in several languages; and designed and setup databases and ETL pipelines.
                 </p>
                 <p>
-                  Tech that I have used and become familiar with includes React, Angular, Backbone, React Native, Ionic, Aframe-VR,
-                  Redux, Socket.io, Node, Express, Hapi, GraphQL, Ruby on Rails, SQL, MongoDB, Neo4j, Amazon Redshift, Docker, Python, and more.
+                  I am experienced with React, Angular, Backbone, React Native, Ionic, Aframe-VR,
+                  Redux, D3, Socket.io, Node, Express, Hapi, GraphQL, Ruby on Rails, SQL, MongoDB, Neo4j, Amazon Redshift, Docker, Python, and more.
                 </p>
                 <p>
                   In my free time, I continuously seek new creative outlets and tinkering projects.
@@ -127,8 +113,7 @@
         <div class="projects-section" id="project-header">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Projects</h2>
-                    <p>...</p>
+                    <h2>—Projects—</h2>
                     <a href="https://github.com/iandeboisblanc" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> iandeboisblanc</a>
                 </div>
             </div>
@@ -136,13 +121,22 @@
         <div class="projects-section" id="vrmuseum-project">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>VR Wikipedia Museum</h2>
-                    <p>Explore any Wikipedia page as a 3D virtual reality museum room</p>
-                    <p>Blah blah</p>
+                    <h2 class='project-title'>VR Wikipedia Museum</h2>
+                    <p class='project-subtitle'>
+                      Explore any Wikipedia page as a 3D virtual reality museum room
+                    </p>
+                    <p>
+                      Built using React and Aframe-VR, each Wikipedia page can be displayed either in 2D or
+                      3D based on app state. Each room is generated dynamically from a Wikipedia article
+                      based on custom HTML parsing.
+                    </p>
                     <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://github.com/iandeboisblanc/VRwikiMuseum" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
-                        </li>
+                      <!-- <li>
+                        <a href="https://www.vrWikiMuseum.com" class="btn btn-default btn-lg"><i class="fa fa-wikipedia-w fa-fw"></i>VRWikiMuseum</a>
+                      </li> -->
+                      <li>
+                          <a href="https://github.com/iandeboisblanc/VRwikiMuseum" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
+                      </li>
                     </ul>
                 </div>
             </div>
@@ -150,13 +144,23 @@
         <div class="projects-section" id="evolution-project">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Evolution</h2>
-                    <p>Blah blah</p>
-                    <p>Blah blah</p>
+                    <h2 class='project-title'>Evolution</h2>
+                    <p class='project-subtitle'>
+                      Graph-based automata compete to maximize survival function, while incrementally
+                      evolving for each successive generation
+                    </p>
+                    <p>
+                      Evolutionary units are rendered as SVGs using D3, operating on top of a
+                      custom physics engine. Evolution takes place server-side so patterns can
+                      be observed over time.
+                    </p>
                     <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://github.com/iandeboisblanc/evolution" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
-                        </li>
+                      <!-- <li>
+                        <a href="https://www.iandeboisblanc.com/evolution" class="btn btn-default btn-lg"><i class="fa fa-chevron-circle-up fa-fw"></i>Evolution</a>
+                      </li> -->
+                      <li>
+                          <a href="https://github.com/iandeboisblanc/evolution" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
+                      </li>
                     </ul>
                 </div>
             </div>
@@ -164,9 +168,15 @@
         <div class="projects-section" id="thumbroll-project">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Thumbroll</h2>
-                    <p>Blah blah</p>
-                    <p>Blah blah</p>
+                    <h2 class='project-title'>Thumbroll</h2>
+                    <p class='project-subtitle'>
+                      Flexible real-time classroom polling and analytics platform
+                    </p>
+                    <p>
+                      React-Native mobile apps linked via Socket.io connect educators and students with low latency.
+                      Student responses are stored in a PostgreSQL database to power D3 visualizations on a
+                      complimentary React web app.
+                    </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://github.com/absurdSquid/thumbroll" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
@@ -178,9 +188,14 @@
         <div class="projects-section" id="gobbler-project">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Web Gobbler</h2>
-                    <p>Blah blah</p>
-                    <p>Blah blah</p>
+                    <h2 class='project-title'>Web Gobbler</h2>
+                    <p class='project-subtitle'>
+                      Schedule automated web scrapers to alert you via SMS or email when search terms are found
+                    </p>
+                    <p>
+                      Bulit with Angular and Meteor, and backed by MongoDB, scheduled cron jobs query target sites and use a
+                      combination of hashing and Regex pattern matching to identify new occurences of keywords.
+                    </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://github.com/absurdSquid/thumbroll" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
@@ -192,8 +207,14 @@
         <div class="projects-section" id="bubbletanks-project">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Bubble Tanks</h2>
-                    <p>Battle your friends with virtual tanks in real time. Built with Socket.io, A-Frame VR, React, Docker, Node, and Webpack.</p>
+                    <h2 class='project-title'>Bubble Tanks</h2>
+                    <p class='project-subtitle'>
+                      Battle your friends with virtual tanks in real time
+                    </p>
+                    <p>
+                      Socket.io links up to 4 React/Aframe-VR clients through a Node backend.
+                      Deployment and bundling handled via Webpack and Docker.
+                    </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
                             <a href="https://github.com/ourvrisrealerthanyours/tanks" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i>Git Repo</a>
@@ -208,7 +229,7 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Ian deBoisblanc</h2>
+                <h2>—Contact Me—</h2>
                 <p>Feel free to reach out by email or via LinkedIn</p>
                 <p><a href="mailto:iandeboisblanc@gmail.com">iandeboisblanc@gmail.com</a></p>
                 <ul class="list-inline banner-social-buttons">
@@ -227,7 +248,6 @@
     <footer>
         <div class="container text-center">
             <p>Copyright &copy; Ian deBoisblanc 2017</p>
-            <p>Grayscale theme by <a href="http://startbootstrap.com/template-overviews/grayscale/">Start Bootstrap</a></p>
         </div>
     </footer>
 

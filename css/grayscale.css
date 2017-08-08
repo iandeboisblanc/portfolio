@@ -273,6 +273,18 @@ a:focus {
   -o-background-size: cover;
 }
 
+.project-title {
+  margin-bottom: 0
+}
+
+.project-subtitle {
+
+}
+
+#project-header {
+  background: url(../img/projects-bg.png) no-repeat center center scroll;
+}
+
 #vrmuseum-project {
   background: url(../img/vrmuseum-bg.png) no-repeat center center scroll;
 }
@@ -291,10 +303,6 @@ a:focus {
 
 #bubbletanks-project {
   background: url(../img/bubbletanks-bg.jpg) no-repeat center center scroll;
-}
-
-#project-header {
-  background: url(../img/projects-bg.jpg) no-repeat center center scroll;
 }
 
 #map {
